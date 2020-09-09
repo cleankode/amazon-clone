@@ -16,50 +16,50 @@ function Home() {
       />
       <div className="home__row">
         <Product
-          id="1234"
-          title="The Lean Startup: How Constant Innovation Creates"
-          price={11.96}
+          id="12"
+          title="Echo Dot with clock (Sandstone) Bundle with Echo Auto"
+          price={89.98}
           rating={5}
-          image="https://images-na.ssl-images-amazon.com/images/G/01/kindle/journeys/M2RjMzI2ZGUt/M2RjMzI2ZGUt-NjkwMjZhZDEt-w758._SY608_CB406624432_.jpg"
+          image="https://images-na.ssl-images-amazon.com/images/I/51JoCOt2xRL._AC_SL1000_.jpg"
         />
         <Product
-          id="1234"
-          title="The Lean Startup: How Constant Innovation Creates"
-          price={11.96}
-          rating={5}
-          image="https://images-na.ssl-images-amazon.com/images/G/01/kindle/journeys/M2RjMzI2ZGUt/M2RjMzI2ZGUt-NjkwMjZhZDEt-w758._SY608_CB406624432_.jpg"
-        />
-      </div>
-      <div className="home__row">
-        <Product
-          id="1234"
-          title="The Lean Startup: How Constant Innovation Creates"
-          price={11.96}
-          rating={5}
-          image="https://images-na.ssl-images-amazon.com/images/G/01/kindle/journeys/M2RjMzI2ZGUt/M2RjMzI2ZGUt-NjkwMjZhZDEt-w758._SY608_CB406624432_.jpg"
-        />
-        <Product
-          id="1234"
-          title="The Lean Startup: How Constant Innovation Creates"
-          price={11.96}
-          rating={5}
-          image="https://images-na.ssl-images-amazon.com/images/G/01/kindle/journeys/M2RjMzI2ZGUt/M2RjMzI2ZGUt-NjkwMjZhZDEt-w758._SY608_CB406624432_.jpg"
-        />
-        <Product
-          id="1234"
-          title="The Lean Startup: How Constant Innovation Creates"
-          price={11.96}
-          rating={5}
-          image="https://images-na.ssl-images-amazon.com/images/G/01/kindle/journeys/M2RjMzI2ZGUt/M2RjMzI2ZGUt-NjkwMjZhZDEt-w758._SY608_CB406624432_.jpg"
+          id="23"
+          title="AUKEY FHD Webcam, 1080p Live Streaming Camera with Stereo Microphone, Desktop or Laptop USB Webcam for Widescreen Video Calling and Recording"
+          price={49.99}
+          rating={4}
+          image="https://images-na.ssl-images-amazon.com/images/I/51NaTEP5xbL._AC_SL1500_.jpg"
         />
       </div>
       <div className="home__row">
         <Product
-          id="1234"
-          title="The Lean Startup: How Constant Innovation Creates"
+          id="34"
+          title="Westinghouse WGen7500 Portable Generator with Remote Electric Start - 7500 Rated Watts & 9500 Peak Watts - Gas Powered - CARB Compliant - Transfer..."
+          price={924.7}
+          rating={5}
+          image="https://images-na.ssl-images-amazon.com/images/I/81qINg8KeEL._AC_SL1500_.jpg"
+        />
+        <Product
+          id="45"
+          title="Skechers Men's Escape Plan Oxford"
+          price={138.28}
+          rating={4}
+          image="https://m.media-amazon.com/images/I/91ZyhXdnk-L._AC_UL480_FMwebp_QL65_.jpg"
+        />
+        <Product
+          id="56"
+          title="Armani Exchange Hampton Stainless Steel Watch"
           price={11.96}
           rating={5}
-          image="https://images-na.ssl-images-amazon.com/images/G/01/kindle/journeys/M2RjMzI2ZGUt/M2RjMzI2ZGUt-NjkwMjZhZDEt-w758._SY608_CB406624432_.jpg"
+          image="https://m.media-amazon.com/images/I/81Yvt7PGUtL._AC_UL480_FMwebp_QL65_.jpg"
+        />
+      </div>
+      <div className="home__row">
+        <Product
+          id="67"
+          title="Dell UltraSharp U3415W 34-Inch Curved LED-Lit Monitor"
+          price={614.99}
+          rating={5}
+          image="https://m.media-amazon.com/images/I/71br6lyzhuL._AC_UY327_FMwebp_QL65_.jpg"
         />
       </div>
     </div>
