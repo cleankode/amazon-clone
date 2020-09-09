@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./coomponents/Header";
 import Home from "./coomponents/Home";
 import Checkout from "./coomponents/Checkout";
+import Login from "./coomponents/Login";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           <Checkout />
         </Route>
         <Route path="/login">
-          <h1>Login</h1>
+          <Login />
         </Route>
         <Route path="/">
           <Header />
