@@ -1,6 +1,8 @@
 import React from "react";
 import "./Product.css";
 import { useStateValue } from "../StateProvider";
+import GradeSharp from "@material-ui/icons/GradeSharp";
+import StarBorderSharpIcon from "@material-ui/icons/StarBorderSharp";
 
 function Product({ id, title, image, price, rating }) {
   const [{ basket }, dispatch] = useStateValue();
@@ -23,7 +25,16 @@ function Product({ id, title, image, price, rating }) {
           {Array(rating)
             .fill()
             .map((_, i) => (
-              <p key={i}>:star</p>
+              <p key={i}>
+                <GradeSharp />
+              </p>
+            ))}
+          {Array(5 - rating)
+            .fill()
+            .map((_, i) => (
+              <p key={i}>
+                <StarBorderSharpIcon />
+              </p>
             ))}
         </div>
       </div>
