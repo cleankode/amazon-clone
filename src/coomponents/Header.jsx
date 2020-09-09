@@ -6,7 +6,8 @@ import "./Header.css";
 import {useStateValue} from '../StateProvider';
 
 function Header() {
-  const [{basket}]=useStateValue();
+  const [{basket}, dispatch]=useStateValue();
+  console.log(basket);
   return (
     <nav className="header">
       <Link to="/">
@@ -27,7 +28,7 @@ function Header() {
             <span className="header__optionLineTwo">Sign In</span>
           </div>
         </Link>
-        <Link to="/login" className="header__link">
+        <Link to="/checkout" className="header__link">
           <div className="header__option">
             <span className="header__optionLineOne">Returns</span>
             <span className="header__optionLineTwo">& Orders</span>
@@ -39,10 +40,10 @@ function Header() {
             <span className="header__optionLineTwo">Prime</span>
           </div>
         </Link>
-        <Link>
+        <Link to="/checkout">
           <div className="header__optionBasket">
             <ShoppingBasketIcon />
-            <span className="header__basketCount">{basket.length}</span>
+            <span className="header__basketCount">{basket?.length}</span>
           </div>
         </Link>
       </div>
