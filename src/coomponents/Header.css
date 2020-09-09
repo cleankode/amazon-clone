@@ -2,6 +2,8 @@
   background-color: #131921;
   display: flex;
   align-items: center;
+  position:sticky;
+  top:0;
 }
 
 .header__logo {
@@ -27,4 +29,40 @@
   background-color: #cd9042;
   padding: 5px;
   height: 22px !important;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__link {
+  color: white;
+  text-decoration: none;
+}
+
+.header__optionLineOne {
+  font-size: 10px;
+}
+
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800; /*  boldness of the text */
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+}
+
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
 }
